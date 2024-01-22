@@ -13,22 +13,20 @@ import Profile from "./pages/Profile";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/capstone8">
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<IndexRoute />} />
-            <Route path="/add" element={<Add />} />
-            <Route path="/library" element={<Library />} />
-            <Route path="/faq" element={<Faqs />} />
-            <Route path="/learn" element={<LayoutLearn />}>
-              <Route index element={<Game1 />} />
-              <Route path="/learn/game2" element={<Game2 />} />
-            </Route>
-            <Route path="/profile" element={<Profile />} />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<IndexRoute />} />
+          <Route path="/add" element={<Add />} />
+          <Route path="/library" element={<Library />} />
+          <Route path="/faq" element={<Faqs />} />
+          <Route path="/learn" element={<LayoutLearn />}>
+            <Route index element={<Game1 />} />
+            <Route path="/learn/game2" element={<Game2 />} />
           </Route>
-          <Route path="*" element={<Wildcard />} />
-        </Routes>
-      </BrowserRouter>
+          <Route path="/profile" element={<Profile />} />
+        </Route>
+        <Route path="*" element={<Wildcard />} />
+      </Routes>
     </div>
   );
 }

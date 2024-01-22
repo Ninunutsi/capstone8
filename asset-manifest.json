@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/capstone8/static/css/main.d74051b7.css",
-    "main.js": "/capstone8/static/js/main.bd02c349.js",
+    "main.js": "/capstone8/static/js/main.b9dbcdb1.js",
     "static/js/787.918ad965.chunk.js": "/capstone8/static/js/787.918ad965.chunk.js",
     "static/media/Rectangle 107.png": "/capstone8/static/media/Rectangle 107.ee9018dd43150a5bee44.png",
     "static/media/Untitled design_page-0001 1.png": "/capstone8/static/media/Untitled design_page-0001 1.958814d79e2c39442bea.png",
@@ -18,11 +18,11 @@
     "static/media/FASHION__1_-removebg-preview 1.png": "/capstone8/static/media/FASHION__1_-removebg-preview 1.352db0a5271187147180.png",
     "index.html": "/capstone8/index.html",
     "main.d74051b7.css.map": "/capstone8/static/css/main.d74051b7.css.map",
-    "main.bd02c349.js.map": "/capstone8/static/js/main.bd02c349.js.map",
+    "main.b9dbcdb1.js.map": "/capstone8/static/js/main.b9dbcdb1.js.map",
     "787.918ad965.chunk.js.map": "/capstone8/static/js/787.918ad965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d74051b7.css",
-    "static/js/main.bd02c349.js"
+    "static/js/main.b9dbcdb1.js"
   ]
 }

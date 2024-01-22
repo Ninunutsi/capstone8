@@ -1,0 +1,151 @@
+.addcard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6vw;
+  width: 100%;
+  gap: 50px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputs input {
+  background-color: #d9d9d9;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #292828;
+  outline: none;
+  padding: 10px 0 10px 15px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.flashcard-form {
+  border: 2px solid #292828;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.flashcard-app {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.select {
+  background-color: #d9d9d9;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #292828;
+  outline: none;
+  padding: 10px 0 10px 15px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.save-btn {
+  background-color: #235391;
+  color: white;
+  cursor: pointer;
+  padding: 10px 50px;
+  border: none;
+  font-size: 16px;
+  width: 150px;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.save-btn:hover {
+  background-color: #235391b8;
+  transition: 0.5s;
+}
+
+.alert {
+  position: absolute;
+  color: red;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.recently-added {
+  font-size: 15px;
+  margin: 40px 0;
+  line-height: 19px;
+}
+
+.card-display {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.card-display input {
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #292828;
+  outline: none;
+  padding: 10px 0 10px 15px;
+  font-size: 18px;
+  flex: 1;
+  line-height: 24px;
+}
+
+.word {
+  background-color: #d9d9d9;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: #292828;
+  outline: none;
+  padding: 10px 0 10px 15px;
+  font-size: 18px;
+  flex: 1;
+  line-height: 24px;
+}
+
+.del-edit-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-display button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.save {
+  color: green;
+}
+
+.save:hover,
+.cancel:hover {
+  text-decoration: underline;
+}
+
+.cancel {
+  color: red;
+}
+
+.del-edit-btn button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

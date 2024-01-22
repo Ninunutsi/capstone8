@@ -1,0 +1,43 @@
+.wildcard-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.wildcard-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6vw;
+}
+
+.wildcard-div img {
+  width: 700px;
+}
+
+.err-msg {
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.msg {
+  line-height: 20px;
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: #235391;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 18px 70px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.btn:hover {
+  background-color: #235391d4;
+  transition: 0.5s;
+}

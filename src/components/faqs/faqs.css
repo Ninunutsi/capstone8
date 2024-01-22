@@ -1,0 +1,43 @@
+.faq-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-texts h3 {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.faq-texts p {
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 12px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #5d5d5d80;
+  padding-bottom: 10px;
+}
+
+.answer {
+  display: none;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.show-answer .answer {
+  display: block;
+}
+
+.faq-texts h4 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}

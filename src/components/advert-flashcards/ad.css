@@ -1,0 +1,46 @@
+.ad-div {
+  margin-top: 100px;
+  background-color: #dfdfdf;
+  padding: 40px;
+}
+
+.ad-div-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  position: relative;
+  padding: 30px;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ad-div-container h1 {
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 48px;
+}
+
+.ad-divs {
+  display: flex;
+  gap: 50px;
+}
+
+.ad-divs p {
+  padding: 20px 40px;
+  background-color: #0e4c92;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+}

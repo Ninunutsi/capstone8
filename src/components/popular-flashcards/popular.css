@@ -1,0 +1,62 @@
+.popular-flashcards {
+  margin-top: 50px;
+  padding: 0 6vw;
+}
+
+.popular-flashcards p {
+  margin-bottom: 22px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.flashcard {
+  width: 33%;
+  padding: 30px 15px;
+  border-radius: 5px;
+  background-image: url(../../assets/Rectangle\ 5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+
+.flashcards-div {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.flashcard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flashcard-mid {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.flashcard-btn {
+  background-color: #57cc02;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  justify-self: center;
+  line-height: 23px;
+  padding: 10px 60px;
+  margin-top: 48px;
+}
+
+.flashcard-btn:hover {
+  background-color: #56cc02b1;
+  transition: 0.5s;
+}

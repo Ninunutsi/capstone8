@@ -1,0 +1,23 @@
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  color: black;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal-content p {
+  font-size: 14px;
+  line-height: 18px;
+  color: black;
+}

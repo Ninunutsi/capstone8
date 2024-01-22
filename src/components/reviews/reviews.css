@@ -1,0 +1,35 @@
+.reviews-div {
+  margin-top: 48px;
+  margin-bottom: 80px;
+  padding: 0 6vw;
+}
+
+.reviews-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+  gap: 20px;
+}
+
+.review-div {
+  display: flex;
+  gap: 30px;
+}
+
+.review-texts {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.review-texts h5 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.review-texts p {
+  font-size: 14px;
+  line-height: 17px;
+}

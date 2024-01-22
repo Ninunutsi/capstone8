@@ -1,0 +1,134 @@
+.game1-div {
+  border: 2px solid black;
+  position: relative;
+  border-radius: 10px;
+  padding: 30px;
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.main-word {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #000000b2;
+  font-size: 20px;
+  line-height: 24px;
+  height: 150px;
+  border: 2px solid #0e4c92;
+  background: rgb(14, 76, 146);
+  background: linear-gradient(
+    171deg,
+    rgba(14, 76, 146, 1) 0%,
+    rgba(87, 204, 2, 1) 91%
+  );
+}
+
+.answers {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+.answers div {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.btns button {
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 23px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 7px 70px;
+}
+
+.skip {
+  color: #0e4c92;
+  border: 1px solid #0e4c92;
+  background-color: transparent;
+}
+
+.next {
+  background-color: #0e4c92;
+  border: 1px solid #0e4c92;
+  color: white;
+}
+
+.timer-div {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+}
+
+.questions-num {
+  font-weight: bold;
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.game2-words {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.game2 {
+  width: 180px;
+  height: 180px;
+}
+
+.enter {
+  border: 2px solid black;
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enter input {
+  border: none;
+  outline: none;
+  color: #00000080;
+  font-weight: bold;
+  width: 170px;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: center;
+  line-height: 23px;
+}

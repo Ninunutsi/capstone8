@@ -13,7 +13,7 @@ import Profile from "./pages/Profile";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/capstone8">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<IndexRoute />} />

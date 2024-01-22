@@ -13,16 +13,16 @@ import Profile from "./pages/Profile";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/capstone8">
         <Routes>
-          <Route path="/capstone8" element={<Layout />}>
+          <Route path="/" element={<Layout />}>
             <Route index element={<IndexRoute />} />
-            <Route path="/capstone8/add" element={<Add />} />
-            <Route path="/capstone8/library" element={<Library />} />
-            <Route path="/capstone8/faq" element={<Faqs />} />
-            <Route path="/capstone8/learn" element={<LayoutLearn />}>
+            <Route path="/add" element={<Add />} />
+            <Route path="/library" element={<Library />} />
+            <Route path="/faq" element={<Faqs />} />
+            <Route path="/learn" element={<LayoutLearn />}>
               <Route index element={<Game1 />} />
-              <Route path="/capstone8/learn/game2" element={<Game2 />} />
+              <Route path="/learn/game2" element={<Game2 />} />
             </Route>
             <Route path="/profile" element={<Profile />} />
           </Route>

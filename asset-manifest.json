@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/capstone8/static/css/main.d74051b7.css",
+    "main.js": "/capstone8/static/js/main.bd02c349.js",
+    "static/js/787.918ad965.chunk.js": "/capstone8/static/js/787.918ad965.chunk.js",
+    "static/media/Rectangle 107.png": "/capstone8/static/media/Rectangle 107.ee9018dd43150a5bee44.png",
+    "static/media/Untitled design_page-0001 1.png": "/capstone8/static/media/Untitled design_page-0001 1.958814d79e2c39442bea.png",
+    "static/media/7504489 1.png": "/capstone8/static/media/7504489 1.34f88cb48f4d752750a8.png",
+    "static/media/Rectangle 91.png": "/capstone8/static/media/Rectangle 91.ace4ea705ee4278fcf70.png",
+    "static/media/Rectangle 5.png": "/capstone8/static/media/Rectangle 5.86de2290eabbd83c4f61.png",
+    "static/media/amico.png": "/capstone8/static/media/amico.7ba40c439981b7dbf7db.png",
+    "static/media/cuate.png": "/capstone8/static/media/cuate.4e660c751a4e147276a7.png",
+    "static/media/Group 7.png": "/capstone8/static/media/Group 7.8f606f509901b6da9ec8.png",
+    "static/media/Ellipse 13.png": "/capstone8/static/media/Ellipse 13.3aa96d523fc17b88717a.png",
+    "static/media/prof (1).png": "/capstone8/static/media/prof (1).eb4322590d0a7a9b6ba1.png",
+    "static/media/Ellipse 12.png": "/capstone8/static/media/Ellipse 12.585531670369295734a2.png",
+    "static/media/Ellipse 11.png": "/capstone8/static/media/Ellipse 11.f475dc25fd1b565d6460.png",
+    "static/media/FASHION__1_-removebg-preview 1.png": "/capstone8/static/media/FASHION__1_-removebg-preview 1.352db0a5271187147180.png",
+    "index.html": "/capstone8/index.html",
+    "main.d74051b7.css.map": "/capstone8/static/css/main.d74051b7.css.map",
+    "main.bd02c349.js.map": "/capstone8/static/js/main.bd02c349.js.map",
+    "787.918ad965.chunk.js.map": "/capstone8/static/js/787.918ad965.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d74051b7.css",
+    "static/js/main.bd02c349.js"
+  ]
+}

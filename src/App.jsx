@@ -9,6 +9,8 @@ import LayoutLearn from "./layout/LayoutLearn";
 import Game1 from "./pages/Game1";
 import Game2 from "./pages/Game2";
 import Profile from "./pages/Profile";
+import Authorization from "./pages/Authorization/Authorization";
+import Registration from "./pages/Authorization/Registration";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
               <Route path="/learn/game2" element={<Game2 />} />
             </Route>
             <Route path="/profile" element={<Profile />} />
+            <Route path="/login" element={<Authorization />} />
+            <Route path="/signup" element={<Registration />} />
           </Route>
           <Route path="*" element={<Wildcard />} />
         </Routes>

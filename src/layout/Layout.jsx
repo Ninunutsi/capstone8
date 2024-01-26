@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./layout.css";
 import logo from "../assets/FASHION__1_-removebg-preview 1.png";
-import { NavLink, Outlet } from "react-router-dom";
+import { NavLink, Outlet, useLocation } from "react-router-dom";
 // import instagram from "../assets/🦆 icon _instagram alt icon_.png";
 // import linkedin from "../assets/🦆 icon _social linkedin_.png";
 // import facebook from "../assets/🦆 icon _Facebook icon_.png";
@@ -13,10 +13,22 @@ import { useNavigate } from "react-router-dom/dist";
 const Layout = () => {
   const [visible, setVisible] = useState(false);
   const navigate = useNavigate();
+  const location = useLocation();
 
   const handleClick = () => {
     setVisible(!visible);
   };
+
+  const renderNavLink = (to, text) => (
+    <NavLink
+      key={to}
+      to={to}
+      isActive={() => location.pathname === to}
+      className={location.pathname === to ? "active" : ""}
+    >
+      <li>{text}</li>
+    </NavLink>
+  );
 
   return (
     <div>
@@ -29,21 +41,11 @@ const Layout = () => {
           </div>
           <nav>
             <ul>
-              <NavLink to="/">
-                <li>Home</li>
-              </NavLink>
-              <NavLink to="/learn">
-                <li>Learn</li>
-              </NavLink>
-              <NavLink to="/add">
-                <li>Add Flashcards</li>
-              </NavLink>
-              <NavLink to="/library">
-                <li>Library</li>
-              </NavLink>
-              <NavLink to="/profile">
-                <li>Profile</li>
-              </NavLink>
+              {renderNavLink("/", "Home")}
+              {renderNavLink("/learn", "Learn")}
+              {renderNavLink("/add", "Add Flashcards")}
+              {renderNavLink("/library", "Library")}
+              {renderNavLink("/profile", "Profile")}
             </ul>
             <button onClick={() => navigate("login")} className="log-in">
               Log In

@@ -64,7 +64,7 @@ const FaqsComp = () => {
             }`}
             onClick={() => handleQuestionClick(index)}
           >
-            <h4>{item.question}</h4>
+            <h4 className="question">{item.question}</h4>
             <div className="answer">{item.answer}</div>
           </div>
         ))}

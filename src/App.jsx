@@ -15,7 +15,7 @@ import Registration from "./pages/Authorization/Registration";
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/#">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<IndexRoute />} />

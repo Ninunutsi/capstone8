@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Layout from "./layout/Layout";
 import IndexRoute from "./pages/IndexRoute";
 import Wildcard from "./pages/Wildcard";
@@ -15,7 +15,7 @@ import Registration from "./pages/Authorization/Registration";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename="/capstone8">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<IndexRoute />} />
@@ -32,7 +32,7 @@ function App() {
           </Route>
           <Route path="*" element={<Wildcard />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

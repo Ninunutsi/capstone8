@@ -5,11 +5,12 @@
   padding: 0 6vw;
   width: 100%;
   gap: 50px;
+  margin-top: 113px;
 }
 
 .addcard-container img {
   align-self: start;
-  margin-top: 113px;
+  max-width: fit-content;
 }
 
 .inputs {
@@ -19,7 +20,7 @@
 }
 
 .inputs input {
-  width: 350px;
+  width: 90%;
   background-color: #d9d9d9;
   border: 1px solid black;
   border-radius: 10px;
@@ -31,7 +32,7 @@
 }
 
 .flashcard-form {
-  max-width: 766px;
+  max-width: 80%;
   width: 100%;
   border: 2px solid #292828;
   border-radius: 10px;

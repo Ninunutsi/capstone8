@@ -19,16 +19,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<IndexRoute />} />
-            <Route path="/add" element={<Add />} />
-            <Route path="/library" element={<Library />} />
-            <Route path="/faq" element={<Faqs />} />
-            <Route path="/learn" element={<LayoutLearn />}>
+            <Route path="add" element={<Add />} />
+            <Route path="library" element={<Library />} />
+            <Route path="faq" element={<Faqs />} />
+            <Route path="learn" element={<LayoutLearn />}>
               <Route index element={<Game1 />} />
-              <Route path="/learn/game2" element={<Game2 />} />
+              <Route path="learn/game2" element={<Game2 />} />
             </Route>
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/login" element={<Authorization />} />
-            <Route path="/signup" element={<Registration />} />
+            <Route path="profile" element={<Profile />} />
+            <Route path="login" element={<Authorization />} />
+            <Route path="signup" element={<Registration />} />
           </Route>
           <Route path="*" element={<Wildcard />} />
         </Routes>
